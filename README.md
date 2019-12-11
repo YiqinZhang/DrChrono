@@ -1,7 +1,7 @@
 # GreenMate
 Sustainability application for EC327 project.
 
-Team Name: Green Dolphins\
+Team Name: Green Dolphin\
 Member Names:\
 &nbsp; &nbsp; -Christopher Huynh\
 &nbsp; &nbsp; -Michael Harkess\
