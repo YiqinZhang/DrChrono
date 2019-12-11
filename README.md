@@ -2,6 +2,7 @@
 Sustainability application for EC327 project.
 
 Team Name: Green Dolphins
+
 Member Names:
        -Christopher Huynh
        -Michael Harkess
