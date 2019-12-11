@@ -1,4 +1,4 @@
-# SustainabilityApp
+# GreenMate
 Sustainability application for EC327 project.
 
 Team Name: Green Dolphins\
