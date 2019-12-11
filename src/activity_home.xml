@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <TextView
+        android:id="@+id/textView_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button_start"
+        android:text="Start Pedometer"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView_steps"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button_stop"
+        android:text="Stop Pedometer"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_start"
+        android:layout_marginTop="10dp"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/design_default_color_primary"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"/>
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+</RelativeLayout>
